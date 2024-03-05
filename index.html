@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fleetnavigator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0 py-3" id="navbar">
+    <div class="container">
+      <div class="navbar-brand-wrapper d-flex ">
+        <img src="images/logo.png" alt="">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="mdi mdi-menu navbar-toggler-icon"></span>
+        </button> 
+      </div>
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+            <div class="navbar-collapse-logo">
+              <img src="images/logo.png" alt="">
+            </div>
+            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features-section">Fleet Fueling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#digital-marketing-section">Single Tank</a>  
+          </li>
+          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    </nav>   
+  </header>
+  <main>
+    <div class="container-fluid px-0" >
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Property 1=Default.png" alt="" class="bd-placeholder-img">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Bridge between your Office and <br> Delivery Truck.</h1>
+                <p class="mt-4"><a class="btn  btn-outline-light" href="#">LEARN MORE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="images/1 (1).mp4" class="object-fit-fill " style="height: 600px; width: 1280px;" autoplay></video>
+             <div class="container">
+               <div class="carousel-caption text-end">
+                <h1>Bridge between your Office and <br> Delivery Truck.</h1>
+                <p class="mt-4"><a class="btn  btn-outline-light" href="#">LEARN MORE</a></p>
+               </div>
+             </div>
+           </div>
+          <div class="carousel-item">
+            <img src="images/Property 1=Default-3.png" alt="" class="bd-placeholder-img">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bridge between your Office and <br> Delivery Truck.</h1>
+                <p class="mt-4"><a class="btn  btn-outline-light" href="#">LEARN MORE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="images/1.mp4" class="object-fit-fill " style="height: 600px; width: 1280px;" autoplay></video>
+             <div class="container">
+               <div class="carousel-caption text-end">
+                <h1>Bridge between your Office and <br> Delivery Truck.</h1>
+                <p class="mt-4"><a class="btn  btn-outline-light" href="#">LEARN MORE</a></p>
+               </div>
+             </div>
+           </div>
+           <div class="carousel-item">
+            <img src="images/Property 1=Default-4.png" alt="" class="bd-placeholder-img">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg> -->
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bridge between your Office and <br> Delivery Truck.</h1>
+                <p class="mt-4"><a class="btn  btn-outline-light" href="#">LEARN MORE</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-1"></div> 
+          <div class="col-5">
+            <h1 class="font-weight-medium ">Flee Navigator Products</h1>
+            <h5 class="opacity-75 font-weight-normal mt-3">Providing the bridge between your office and delivery truck</h4>
+        <h6 class="font-weight-normal text-muted pb-3 mt-3 word-wrap">The Fleet Navigator suite of solutions is comprised of user-friendly systems designed from the hose back to the office, not the other way around. Fleet Navigator puts a focus on one of your most valuable assets, the driver. Fleet Navigator is user-friendly and requires little to no training to operate. Fleet Navigator works with most electronic truck registers, even mixed fleets. Fleet Navigator easily integrates with most back-office accounting software.
+          <br>Fleet Navigator runs on a variety of hardware platforms and integrates with most electronic registers. Fleet Navigator is committed to keep ahead of the technology curve, as new registers are developed we will have the ability to interface with them.</h6>
+        <div>
+        </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-2">
+            <img src="images/productsimg.png" alt="" class="mt-4">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-wrapper">
+      <div class="container">
+        <section class="features-overview" id="features-section" >
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-1"></div> 
+              <div class="col-3">
+                <img src="images/fleetfueling.png" alt="">
+              </div>
+              <div class="col-1"></div>
+              <div class="col-6">
+                <h1 class="font-weight-medium ">Fleet Fueling</h1>
+                <h5 class="opacity-75 font-weight-normal mt-3">Simply put, the most cost effective solution</h4>
+            <h6 class="font-weight-normal text-muted pb-3 mt-3 word-wrap">For fleet fueling and single tank deliveries the Fleet Navigator software can be loaded onto a handheld scanner running on a Windows operating system. This easy to use system is packed with features and works with durable yet inexpensive barcodes. Fleet Navigator picks up where other systems leave off, allowing the fueler to record valuable information like hour meter, hub meter and odometer readings. This feature allows you to schedule important vehicle and equipment maintenance that prevents down time. Fleet Navigator offers software packages that will help you sort out all the data that comes in from the fuel truck. We also offer custom software to meet all your specific needs. The information stored on the handheld can be uploaded into your office data system via a docking cradle or it can be transferred using wireless technology. This flexible solution is being used by companies of all sizes, from some of the largest fleet fuelers in the northeast to the smaller one or two truck operations and everywhere in between. Stop by booth 709 and we can show you how Fleet Navigator can meet your fleet, wet hosing and on-site fueling needs.</h6>
+            <div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </section>     
+        <section class="digital-marketing-service pt-5" id="digital-marketing-section">
+          <div class="container ">
+            <div class="row">
+              <div class="col-1"></div> 
+              <div class="col-6">
+                <h1 class="font-weight-medium ">In-Cab Computer</h1>
+                <h5 class="opacity-75 font-weight-normal mt-3">Used for Single Tank Deliveries</h4>
+            <h6 class="font-weight-normal text-muted pb-3 mt-3 word-wrap">For single tank deliveries the Fleet Navigator software can be loaded onto many touch screen fixed mount Windows CE based solutions. Fleet Navigator software automates and captures the delivery transactions. It is mounted inside the cab of the truck and directly connects to the register. The Fleet Navigator software allows the driver to control the register via this connection. In addition to the register control, Fleet Navigator electronically captures the delivery record. This includes data such as time, date, sale number, truck number, totalizer, quantity delivered in gross and net if compensated. One of the best features of Fleet Navigator is the flexibility to work with existing office systems. Fleet Navigator can produce an output file as simple as Excel-friendly comma delimited text file or as complex as full data exchange to and from the office. Fleet Navigator does not require changes in the office software in order to take full advantage of all the features Fleet Navigator has to offer. There are a number of mechanisms that can be used to get data to and from Fleet Navigator to your office system: USB thumb drive; Wi-Fi; or cellular.</h6>
+            <div>
+            </div>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-2">
+                <img src="images/incab.png" alt="" class="mt-4">
+              </div>
+    
+            </div>
+          </div>
+        </section>     
+        <section class="case-studies pt-5" id="case-studies-section">
+          <div class="row grid-margin">
+            <div class="col-12 text-center pb-5">
+              <h2>Get the most from your register </h2>
+              <!-- <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-warning text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Perpetual license—no mandatory monthly fees</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-1">Perpetual License</h6>
+                      <!-- <p>Developing, Designing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-primary text-center card-contents">
+                    <div class="card-image">
+                      <img src="images/Group95.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Ability to maintain proper inventory by individual products or compartments</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-0">Inventory Maintanence</h6>
+                      <!-- <p>Seo, Marketing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-success text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Know more about Priced Ticket</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4 pb-3">
+                      <h6 class="m-0 pb-1">Priced Ticket</h6>
+                      <!-- <p>Developing, Designing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-violet text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Wireless data transfer options</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-1">Wireless Data</h6>
+                      <!-- <p>Designing, Developing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 mt-4" data-aos="zoom-in">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-primary text-center card-contents">
+                    <div class="card-image">
+                      <img src="images/Group95.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3"> Know more about ability to reduce errors</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-0">Reduce Errors</h6>
+                      <!-- <p>Seo, Marketing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 mt-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-warning text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Know more about electronic register </h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-1">Electronic Register Integration</h6>
+                      <!-- <p>Developing, Designing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0 mt-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-violet text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Know more about eliminating handwritten tickets</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4">
+                      <h6 class="m-0 pb-1">Eliminate handwritten tickets</h6>
+                      <!-- <p>Designing, Developing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 stretch-card mt-4" data-aos="zoom-in" data-aos-delay="600">
+              <div class="card color-cards">
+                <div class="card-body p-0">
+                  <div class="bg-success text-center card-contents">
+                    <div class="card-image">
+                        <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                    </div>  
+                    <div class="card-desc-box d-flex align-items-center justify-content-around">
+                      <div>
+                        <h6 class="text-white pb-2 px-3">Know more about scalability</h6>
+                        <button class="btn btn-danger">Read More</button>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="card-details text-center pt-4 pb-3">
+                      <h6 class="m-0 pb-1">Scalable</h6>
+                      <!-- <p>Developing, Designing</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>     
+        <!-- <section class="customer-feedback" id="feedback-section">
+          <div class="row">
+            <div class="col-12 text-center pb-5">
+              <h2>What our customers have to say</h2>
+              <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+            </div>
+            <div class="owl-carousel owl-theme grid-margin">
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Tony Martinez</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Cody Lambert</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Cody Lambert</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Cody Lambert</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Tony Martinez</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Tony Martinez</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card customer-cards">
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                      <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                      <div class="content-divider m-auto"></div>
+                      <h6 class="card-title pt-3">Cody Lambert</h6>
+                      <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section> -->
+        <section class="contact-us" id="contact-section">
+          <div class="contact-us-bgimage grid-margin" >
+            <div class="pb-4">
+              <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Get to know us</h4>
+              <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
+            </div>
+            <div data-aos="fade-up">
+              <button class="btn btn-rounded btn-outline-dark">Contact us</button>
+            </div>          
+          </div>
+        </section>
+        <section class="contact-details" id="contact-details-section">
+          <div class="row text-center text-md-left">
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <img src="images/logo.png" alt="" class="pb-2">
+              <div class="pt-2">
+                <p class="text-muted m-0">info@fleetnavigator.com</p>
+                <p class="text-muted m-0">610.960.3786</p>
+              </div>         
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <h5 class="pb-2">Get in Touch</h5>
+              <p class="text-muted">Please do not hesitate to give us a call or send us a quick note. It would be our pleasure to answer any of your questions.!</p>
+              <form>
+                <input type="text" class="form-control" id="Email" placeholder="Message">
+              </form>
+              <div class="pt-3">
+                <button class="btn btn-dark">Send</button>
+              </div>   
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <h5 class="pb-2">Our Guidelines</h5>
+              <a href="#"><p class="m-0 pb-2">Terms</p></a>   
+              <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
+              <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
+              <a href="#"><p class="m-0 pt-1">Discover</p></a> 
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                <h5 class="pb-2">Our address</h5>
+                <p class="text-muted">PO Box 26538<br>Collegeville, PA 19426</p>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                  <a href="#"><span class="mdi mdi-facebook"></span></a>
+                  <a href="#"><span class="mdi mdi-twitter"></span></a>
+                  <a href="#"><span class="mdi mdi-instagram"></span></a>
+                  <a href="#"><span class="mdi mdi-linkedin"></span></a>
+                </div>
+            </div>
+          </div>  
+        </section>
+        <footer class="border-top">
+          <p class="text-center text-muted pt-4">Copyright © 2018<a  class="px-1 fw-bold">Rush Business Solutions LLC.</a>All rights reserved.</p>
+        </footer>
+        <!-- Modal for Contact - us Button -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </main>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendors/aos/js/aos.js"></script>
+  <script src="js/landingpage.js"></script>
+</body>
+</html>
